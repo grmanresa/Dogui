@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="Dogui.Android" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Dogui</name>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+
+        <icon src="www/android-icon-36.png" density="ldpi" />
+<icon src="www/android-icon-48.png" density="mdpi" />
+<icon src="www/android-icon-72.png" density="hdpi" />
+<icon src="www/android-icon-96.png" density="xhdpi" />
+<icon src="www/android-icon-144.png" density="xxhdpi" />
+<icon src="www/android-icon-192.png" density="xxxhdpi" />
+
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+
+        <icon src="www/ios-icon-180.png" width="180" height="180" />
+<icon src="www/ios-icon-60.png" width="60" height="60" />
+<icon src="www/ios-icon-120.png" width="120" height="120" />
+<icon src="www/ios-icon-76.png" width="76" height="76" />
+<icon src="www/ios-icon-152.png" width="152" height="152" />
+<icon src="www/ios-icon-40.png" width="40" height="40" />
+<icon src="www/ios-icon-80.png" width="80" height="80" />
+<icon src="www/ios-icon-57.png" width="57" height="57" />
+<icon src="www/ios-icon-114.png" width="114" height="114" />
+<icon src="www/ios-icon-72.png" width="72" height="72" />
+<icon src="www/ios-icon-144.png" width="144" height="144" />
+<icon src="www/ios-icon-167.png" width="167" height="167" />
+<icon src="www/ios-icon-29.png" width="29" height="29" />
+<icon src="www/ios-icon-58.png" width="58" height="58" />
+<icon src="www/ios-icon-50.png" width="50" height="50" />
+<icon src="www/ios-icon-100.png" width="100" height="100" />
+
+    </platform>
+    <preference name="orientation" value="landscape" />
+    <preference name="BackgroundColor" value="0xff000000"/>
+
+    <!-- Android Fullscreen -->
+    <preference name="Fullscreen" value="true" />
+
+    <!-- Cordova/Phonegap version -->
+    <preference name="phonegap-version" value="cli-8.0.0" />
+
+    <!-- GDJS_ADMOB_PLUGIN_AND_APPLICATION_ID -->
+</widget>
